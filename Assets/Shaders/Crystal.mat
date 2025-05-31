@@ -31,7 +31,7 @@ Material:
   - _DISABLE_SSR_TRANSPARENT
   m_InvalidKeywords:
   - _NORMALMAP_TANGENT_SPACE
-  m_LightmapFlags: 0
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2225
@@ -205,7 +205,7 @@ Material:
     - _LinkDetailsWithBase: 1
     - _MaterialID: 1
     - _MaterialTypeMask: 2
-    - _Metallic: 0.72
+    - _Metallic: 0.891
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
     - _NormalMapSpace: 0
@@ -225,7 +225,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Smoothness: 0.06
+    - _Smoothness: 0.429
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SpecularAAScreenSpaceVariance: 0.1
@@ -267,9 +267,9 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.56976026, g: 3.9972596, b: 0, a: 1}
+    - _BaseColor: {r: 0.12801628, g: 0.775413, b: 0.5513142, a: 1}
     - _BottomColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.56976026, g: 3.9972596, b: 0, a: 1}
+    - _Color: {r: 0.12801628, g: 0.775413, b: 0.5513142, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
@@ -283,6 +283,6 @@ Material:
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
-    - _topColor: {r: 4.9619203, g: 0, b: 0.15587156, a: 1}
+    - _topColor: {r: 41.24201, g: 0.58361226, b: 34.004387, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
