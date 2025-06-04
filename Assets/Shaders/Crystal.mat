@@ -205,7 +205,7 @@ Material:
     - _LinkDetailsWithBase: 1
     - _MaterialID: 1
     - _MaterialTypeMask: 2
-    - _Metallic: 0.891
+    - _Metallic: 0.78
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
     - _NormalMapSpace: 0
@@ -225,7 +225,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Smoothness: 0.429
+    - _Smoothness: 0.419
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SpecularAAScreenSpaceVariance: 0.1
@@ -266,10 +266,11 @@ Material:
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
+    - _floaOffset: 0.02
     m_Colors:
-    - _BaseColor: {r: 0.12801628, g: 0.775413, b: 0.5513142, a: 1}
+    - _BaseColor: {r: 0.5120652, g: 3.1016524, b: 2.205257, a: 1}
     - _BottomColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.12801628, g: 0.775413, b: 0.5513142, a: 1}
+    - _Color: {r: 0.5120652, g: 3.1016524, b: 2.205257, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
