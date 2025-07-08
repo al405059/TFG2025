@@ -45,10 +45,11 @@ public class FirstPersonController : MonoBehaviour
         float z = Input.GetAxis("Vertical");
 
         Vector3 move = transform.right * x + transform.forward * z;
-        controller.Move(move * speed * Time.deltaTime);
+        controller.Move(move * (speed * Time.deltaTime));
 
         // Gravedad y salto
-        isGrounded = controller.isGrounded;
+        isGrounded = Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, controller.height / 2f + 0.1f);
+
         if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f; // pequeño valor para que mantenga contacto con el suelo
@@ -63,7 +64,7 @@ public class FirstPersonController : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
 
         // Temblor de cámara si se está moviendo
-        if (move.magnitude > 0.1f && isGrounded)
+        if (move.magnitude > 0.1f)
         {
             shakeTimer += Time.deltaTime * cameraShakeSpeed;
             float shakeX = Mathf.Sin(shakeTimer * 2f) * cameraShakeAmount;
